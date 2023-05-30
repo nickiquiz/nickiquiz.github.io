@@ -1,64 +1,65 @@
 {
   "quiz" : {
     "quizId": "x42kew",
-    "title": "What cheese are you?",
-    "subtitle": "This quiz isn't cheesy or anything...",
+    "title": "Which Nicki Minaj are you?",
+    "bannerimg":"nicki.jpg",
+    "subtitle": "onika burger",
     "content": [
       {
-        "id": 0,
-        "text": "Pick a vacation destination:",
+        "id": 0, 
+        "text": "What's your favorite Nicki song?",
         "questions": [
           {
-            "text": "New York",
-            "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
-            "alt": "Photo of Empire State building during daytime",
-            "credit": "Oliver Niblett"
+            "text": "Starships",
+            "image": "favorite_song/starships.png",
+            "alt": "Nicki Minaj - Starships (Explicit)",
+            "credit": "Nicki Minaj"
           },
           {
-            "text": "Austin",
-            "image": "https://images.unsplash.com/photo-1531218150217-54595bc2b934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
-            "alt": "Time-lapse photography car lights on bridge",
-            "credit": "Carlos Alfonso"
+            "text": "Your Love",
+            "image": "favorite_song/your_love.png",
+            "alt": "Nicki Minaj - Your Love (Official Music Video)",
+            "credit": "Nicki Minaj"
           },
           {
-            "text": "Portland",
-            "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
-            "alt": "High-rise buildings",
-            "credit": "Elena Kuchko"
+            "text": "Grand Piano",
+            "image":"favorite_song/grand_piano.png",
+            "alt": "Nicki Minaj - YMCMB & Beats By Dre Presents: The Pinkprint Movie",
+            "credit": "Nicki Minaj"
           },
           {
-            "text": "New Orleans",
+            "text": "Monster",
             "image": "https://images.unsplash.com/photo-1549965738-e1aaf1168943?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
-            "alt": "Road with people and house",
-            "credit": "João Francisco"
+            "alt": "Nicki Minaj in Kanye's West's Monster",
+            "credit": "Kanye West"
           }
         ]
       },
       {
         "id": 1,
-        "text": "Pick some food:",
+        "text": "What's your favorite Nicki Moment:",
         "questions": [
           {
-            "text": "Pizza",
-            "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "barbz stay in school",
+            "image": "https://i.ytimg.com/vi/n0oUfjMAUgQ/sddefault.jpg",
             "alt": "Pepperoni Pizza",
             "credit": "Alan Hardman"
           },
           {
-            "text": "Sandwich",
-            "image": "https://images.unsplash.com/photo-1481070414801-51fd732d7184?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "american idol",
+            "image": "https://i.dailymail.co.uk/i/pix/2013/01/17/article-2263760-16FD2C35000005DC-181_634x441.jpg",
             "alt": "ham sandwich on white surface",
             "credit": "Eaters Collective"
           },
           {
-            "text": "Pasta",
-            "image": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "2015 VMAs",
+            "image": "https://i.ytimg.com/vi/CQHTKGAGBtU/maxresdefault.jpg",
             "alt": "Pasta in tomato sauce",
             "credit": "Mgg Vitchakorn"
           },
           {
-            "text": "Hamburger",
-            "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "2012 Grammys",
+            "image": "https://metro.co.uk/wp-content/uploads/2014/03/wpid-article-1329126444853-11b4fff0000005dc-88172_466x358.jpg?quality=90&strip=all&zoom=1&resize=466%2C358",
             "alt": "hamburger",
             "credit": "sk"
           }
@@ -66,33 +67,65 @@
       },
       {
         "id": 2,
-        "text": "Pick a home:",
+        "text": "Which Hogwarts House do you belong in?",
         "questions": [
           {
-            "text": "Traditional",
-            "image": "https://images.unsplash.com/photo-1555040479-c949debe66c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "Gryffindor",
+            "image": "https://wallpapers.com/images/featured/raqo20208vymv5p9.jpg",
             "alt": "focus photography of building windows",
             "credit": "Burgess Milner"
           },
           {
-            "text": "Modern",
-            "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "Hufflepuff",
+            "image": "https://wallpapers.com/images/featured/0biazn74ja08p3un.jpg",
             "alt": "low angle view of building",
             "credit": "Brandon Giggs"
           },
           {
-            "text": "House",
-            "image": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "Ravenclaw",
+            "image": "https://wallpapers.com/images/featured/k6oxmpd516n9bj8l.jpg",
             "alt": "trees beside white house",
             "credit": "Phil Hearing"
           },
           {
-            "text": "Mountains",
-            "image": "https://images.unsplash.com/photo-1506974210756-8e1b8985d348?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
+            "text": "Slytherin",
+            "image": "https://i.pinimg.com/736x/53/d8/2a/53d82ac8e1ffebc7ab6ac784e768ca10.jpg",
             "alt": "brown wooden cabin infront of forest",
             "credit": "eulauretta"
           }
         ]
+      },
+      {
+        "id": 3,
+        "text": "Which Hogwarts House do you belong in?",
+        "questions": [
+          {
+            "text": "Gryffindor",
+            
+            "image": "https://wallpapers.com/images/featured/raqo20208vymv5p9.jpg",
+            "alt": "focus photography of building windows",
+            "credit": "Burgess Milner"
+          },
+          {
+            "text": "Hufflepuff",
+            "image": "https://wallpapers.com/images/featured/0biazn74ja08p3un.jpg",
+            "alt": "low angle view of building",
+            "credit": "Brandon Giggs"
+          },
+          {
+            "text": "Ravenclaw",
+            "image": "https://wallpapers.com/images/featured/k6oxmpd516n9bj8l.jpg",
+            "alt": "trees beside white house",
+            "credit": "Phil Hearing"
+          },
+          {
+            "text": "Slytherin",
+            "image": "https://i.pinimg.com/736x/53/d8/2a/53d82ac8e1ffebc7ab6ac784e768ca10.jpg",
+            "alt": "brown wooden cabin infront of forest",
+            "credit": "eulauretta"
+          }
+        ]
+
       }
     ],
     "answers": [

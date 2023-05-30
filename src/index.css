@@ -88,3 +88,7 @@ p {
 .answer-block img {
     width: 90%;
 }
+img {
+    width:100%;
+    height:auto;
+    }

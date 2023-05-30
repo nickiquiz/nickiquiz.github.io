@@ -5,7 +5,7 @@ import AnswerBlock from "./components/AnswerBlock"
 
 const App = () => {
     const [quiz, setQuiz] = useState(null)
-    const [chosenAnswerItems, setChosenAnswerItems] = useState([])
+    const [chosenAnswerItems, setChosenAnswerItems] = useState([]) // useState(new Array(4).fill(null))
     const [unansweredQuestionIds, setUnansweredQuestionIds] = useState(null)
     const [showAnswer, setShowAnswer] = useState(false)
 
@@ -38,12 +38,12 @@ const App = () => {
     }, [quiz])
 
     useEffect(() => {
-        if (chosenAnswerItems.length > 0) {
+        if (chosenAnswerItems.filter(String).length > 0) { 
             if (showAnswer) {
                 // scroll to answer block
                 answerRef.current.scrollIntoView({behavior: 'smooth'})
             }
-            if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
+            if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.filter(String).length >= 1) { // 
                 setShowAnswer(true)
             } else {
                 // scroll to highest unansweredQuestionId
@@ -55,7 +55,7 @@ const App = () => {
 
     return (
         <div className="app">
-            <Title title={quiz?.title} subtitle={quiz?.subtitle}/>
+            <Title title={quiz?.title} subtitle={quiz?.subtitle} banner = {quiz?.bannerimg}/>
             {refs && quiz?.content?.map(contentItem => (
                 <QuestionsBlock
                     key={contentItem.id}

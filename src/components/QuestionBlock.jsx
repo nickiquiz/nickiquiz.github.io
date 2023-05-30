@@ -9,7 +9,7 @@ const QuestionBlock = ({
 
     const handleClick = () => {
         setChosenAnswerItems((prevState) => [...prevState, question.text])
-        setUnansweredQuestionIds(unansweredQuestionIds.filter((id) => id != quizItemId))
+        setUnansweredQuestionIds(unansweredQuestionIds.filter((id) => id !== quizItemId))
     }
 
     const validPick = !chosenAnswerItems?.includes(question.text) &&
@@ -27,7 +27,7 @@ const QuestionBlock = ({
             <h3>{question.text}</h3>
             <p>
                 <a href={question.image}>{question.credit} </a>
-                <a href="https://www.unsplash.com">Unsplash</a>
+                <a href="https://www.nickiminajofficial.com">Change Later</a>
             </p>
 
         </button>
