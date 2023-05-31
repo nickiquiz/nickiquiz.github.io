@@ -12,17 +12,21 @@ const QuestionsBlock = ({
         <>
             <h2 ref={ref}  className="question-title">{quizItem.text}</h2>
             <div className="questions-container">
-                {quizItem.questions.map((question, _index) => (
-                    <QuestionBlock
-                        key={_index}
-                        quizItemId={quizItem.id}
-                        question={question}
-                        setChosenAnswerItems={setChosenAnswerItems}
-                        chosenAnswerItems={chosenAnswerItems}
-                        unansweredQuestionIds={unansweredQuestionIds}
-                        setUnansweredQuestionIds={setUnansweredQuestionIds}
-                    />
-                ))}
+            {Object.keys(quizItem.questions).map((questionKey, _index) => {
+    const question = quizItem.questions[questionKey];
+    return (
+        <QuestionBlock
+            key={_index}
+            quizItemId={quizItem.id}
+            question={question}
+            questionKey={questionKey} 
+            setChosenAnswerItems={setChosenAnswerItems}
+            chosenAnswerItems={chosenAnswerItems}
+            unansweredQuestionIds={unansweredQuestionIds}
+            setUnansweredQuestionIds={setUnansweredQuestionIds}
+        />
+    );
+})}
             </div>
         </>
     )

@@ -8,7 +8,11 @@ const QuestionBlock = ({
                        }) => {
 
     const handleClick = () => {
-        setChosenAnswerItems((prevState) => [...prevState, question.text])
+        setChosenAnswerItems(prevState => {
+        let newState = [...prevState];
+            newState[quizItemId] = question.text;
+            return newState;
+        })
         setUnansweredQuestionIds(unansweredQuestionIds.filter((id) => id !== quizItemId))
     }
 

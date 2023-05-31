@@ -8,488 +8,328 @@
       {
         "id": 0, 
         "text": "What's your favorite Nicki song?",
-        "questions": [
+        "questions": {"Starships":
           {
             "text": "Starships",
             "image": "favorite_song/starships.png",
             "alt": "Nicki Minaj - Starships (Explicit)",
-            "credit": "Nicki Minaj"
-          },
+            "credit": "Nicki Minaj",
+            "score": { 
+                      "rookie": 1, 
+                      "chun_li": 0, 
+                      "um_chile": 0, 
+                      "academic": 0, 
+                      "onika_burger": 1, 
+                      "emo_onika": 0, 
+                      "roman_zolanski": 0, 
+                      "barbie": 2 }
+          },"Your Love":
           {
             "text": "Your Love",
             "image": "favorite_song/your_love.png",
             "alt": "Nicki Minaj - Your Love (Official Music Video)",
-            "credit": "Nicki Minaj"
-          },
+            "credit": "Nicki Minaj",
+            "score": { 
+                      "rookie": 2, 
+                      "chun_li": 1, 
+                      "um_chile": 0, 
+                      "academic": 0, 
+                      "onika_burger": 0, 
+                      "emo_onika": 1, 
+                      "roman_zolanski": 0, 
+                      "barbie": 0 }
+          },"Grand Piano":
           {
             "text": "Grand Piano",
             "image":"favorite_song/grand_piano.png",
             "alt": "Nicki Minaj - YMCMB & Beats By Dre Presents: The Pinkprint Movie",
-            "credit": "Nicki Minaj"
-          },
+            "credit": "Nicki Minaj",
+            "score": { 
+                      "rookie": 0, 
+                      "chun_li": 0, 
+                      "um_chile": 0, 
+                      "academic": 0, 
+                      "onika_burger": 0, 
+                      "emo_onika": 3, 
+                      "roman_zolanski": 0, 
+                      "barbie":1 }
+          },"Monster":
           {
             "text": "Monster",
             "image": "https://images.unsplash.com/photo-1549965738-e1aaf1168943?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&fit=crop&h=230&w=320&crop=edges",
             "alt": "Nicki Minaj in Kanye's West's Monster",
-            "credit": "Kanye West"
+            "credit": "Kanye West",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 1, 
+              "um_chile": 0, 
+              "academic": 0, 
+              "onika_burger": 2, 
+              "emo_onika": -1, 
+              "roman_zolanski": 3, 
+              "barbie":1 }
           }
-        ]
+        }
       },
       {
         "id": 1,
         "text": "What's your favorite Nicki Moment:",
-        "questions": [
+        "questions": {"barbz stay in school":
           {
             "text": "barbz stay in school",
             "image": "https://i.ytimg.com/vi/n0oUfjMAUgQ/sddefault.jpg",
             "alt": "Pepperoni Pizza",
-            "credit": "Alan Hardman"
-          },
+            "credit": "Alan Hardman",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 0, 
+              "um_chile": 0, 
+              "academic": 4, 
+              "onika_burger": 0, 
+              "emo_onika": 0, 
+              "roman_zolanski": 0, 
+              "barbie":0 }
+          },"american idol":
           {
             "text": "american idol",
             "image": "https://i.dailymail.co.uk/i/pix/2013/01/17/article-2263760-16FD2C35000005DC-181_634x441.jpg",
             "alt": "ham sandwich on white surface",
-            "credit": "Eaters Collective"
-          },
+            "credit": "Eaters Collective",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 0, 
+              "um_chile": 0, 
+              "academic": 0, 
+              "onika_burg": 0, 
+              "emo_onika": 0, 
+              "roman_zolanski": 3, 
+              "barbie":1 }
+          },"2015 VMAs":
           {
             "text": "2015 VMAs",
             "image": "https://i.ytimg.com/vi/CQHTKGAGBtU/maxresdefault.jpg",
             "alt": "Pasta in tomato sauce",
-            "credit": "Mgg Vitchakorn"
-          },
+            "credit": "Mgg Vitchakorn",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 1, 
+              "um_chile": 0, 
+              "academic": 0, 
+              "onika_burger": 2, 
+              "emo_onika": -1, 
+              "roman_zolanski": 3, 
+              "barbie":0 }
+          },"2012 Grammys":
           {
             "text": "2012 Grammys",
             "image": "https://metro.co.uk/wp-content/uploads/2014/03/wpid-article-1329126444853-11b4fff0000005dc-88172_466x358.jpg?quality=90&strip=all&zoom=1&resize=466%2C358",
             "alt": "hamburger",
-            "credit": "sk"
+            "credit": "sk",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 1, 
+              "um_chile": 0, 
+              "academic": 0, 
+              "onika_burger": 2, 
+              "emo_onika": 1, 
+              "roman_zolanski": 0, 
+              "barbie":0 }
           }
-        ]
+        }
       },
       {
         "id": 2,
         "text": "Which Hogwarts House do you belong in?",
-        "questions": [
+        "questions": {"Gryffindor":
           {
             "text": "Gryffindor",
             "image": "https://wallpapers.com/images/featured/raqo20208vymv5p9.jpg",
             "alt": "focus photography of building windows",
-            "credit": "Burgess Milner"
-          },
+            "credit": "Burgess Milner",
+            "score": { 
+              "rookie": 1, 
+              "chun_li": 4, 
+              "um_chile": 0, 
+              "academic": 0, 
+              "onika_burger": 1, 
+              "emo_onika": 0, 
+              "roman_zolanski": 2, 
+              "barbie":1 }
+          },"Hufflepuff":
           {
             "text": "Hufflepuff",
             "image": "https://wallpapers.com/images/featured/0biazn74ja08p3un.jpg",
             "alt": "low angle view of building",
-            "credit": "Brandon Giggs"
-          },
+            "credit": "Brandon Giggs",
+            "score": { 
+              "rookie": 3, 
+              "chun_li": 0, 
+              "um_chile": 0, 
+              "academic": 0, 
+              "onika_burger": 0, 
+              "emo_onika": 1, 
+              "roman_zolanski": -1, 
+              "barbie": 0 }
+          },"Ravenclaw":
           {
             "text": "Ravenclaw",
             "image": "https://wallpapers.com/images/featured/k6oxmpd516n9bj8l.jpg",
             "alt": "trees beside white house",
-            "credit": "Phil Hearing"
-          },
+            "credit": "Phil Hearing",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 0, 
+              "um_chile": 2, 
+              "academic": 4, 
+              "onika_burger": 0, 
+              "emo_onika": 0, 
+              "roman_zolanski": 0, 
+              "barbie":1 }
+
+          },"Slytherin":
           {
             "text": "Slytherin",
             "image": "https://i.pinimg.com/736x/53/d8/2a/53d82ac8e1ffebc7ab6ac784e768ca10.jpg",
             "alt": "brown wooden cabin infront of forest",
-            "credit": "eulauretta"
+            "credit": "eulauretta",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 2, 
+              "um_chile": 1, 
+              "academic": 3, 
+              "onika_burger": 4, 
+              "emo_onika": -1, 
+              "roman_zolanski": 4, 
+              "barbie":0 }
           }
-        ]
+        }
       },
       {
         "id": 3,
-        "text": "Which Hogwarts House do you belong in?",
-        "questions": [
+        "text": "What do you describe your personality to be like?",
+        "questions": {"Assertive":
           {
-            "text": "Gryffindor",
-            
+            "text": "Assertive",
             "image": "https://wallpapers.com/images/featured/raqo20208vymv5p9.jpg",
             "alt": "focus photography of building windows",
-            "credit": "Burgess Milner"
-          },
+            "credit": "Burgess Milner",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 2, 
+              "um_chile": 2, 
+              "academic": 1, 
+              "onika_burger": 3, 
+              "emo_onika": -2, 
+              "roman_zolanski": 3, 
+              "barbie": 0 }
+          },"Empathetic":
           {
-            "text": "Hufflepuff",
+            "text": "Empathetic",
             "image": "https://wallpapers.com/images/featured/0biazn74ja08p3un.jpg",
             "alt": "low angle view of building",
-            "credit": "Brandon Giggs"
-          },
+            "credit": "Brandon Giggs",
+            "score": { 
+              "rookie": -1, 
+              "chun_li": -2, 
+              "um_chile": 0, 
+              "academic": 1, 
+              "onika_burger": -1, 
+              "emo_onika": 3, 
+              "roman_zolanski": -2, 
+              "barbie": -1 }
+          },"Ambitious":
           {
-            "text": "Ravenclaw",
+            "text": "Ambitious",
             "image": "https://wallpapers.com/images/featured/k6oxmpd516n9bj8l.jpg",
             "alt": "trees beside white house",
-            "credit": "Phil Hearing"
-          },
+            "credit": "Phil Hearing",
+            "score": { 
+              "rookie": 2, 
+              "chun_li": 4, 
+              "um_chile": 0, 
+              "academic": 4, 
+              "onika_burger": 4, 
+              "emo_onika": 1, 
+              "roman_zolanski": 4, 
+              "barbie": 4 }
+
+          },"Eccentric":
           {
-            "text": "Slytherin",
+            "text": "Eccentric",
             "image": "https://i.pinimg.com/736x/53/d8/2a/53d82ac8e1ffebc7ab6ac784e768ca10.jpg",
             "alt": "brown wooden cabin infront of forest",
-            "credit": "eulauretta"
+            "credit": "eulauretta",
+            "score": { 
+              "rookie": 0, 
+              "chun_li": 2, 
+              "um_chile": 1, 
+              "academic": -1, 
+              "onika_burger": 3, 
+              "emo_onika": 0, 
+              "roman_zolanski": 4, 
+              "barbie": 3 }
+            }
           }
-        ]
-
+        }
+      ],
+    "answers": 
+      {"rookie":
+        {
+          "personality": "rookie",
+          "text": "rookie nicki",
+          "image": "https://via.placeholder.com/150",
+          "alt":  "Rookie Nicki Minaj",
+          "explanation": "<explanation_for_rookie>"
+        },"chun_li":
+        {
+          "personality": "chun_li",
+          "text": "chun li era nicki",
+          "image": "https://via.placeholder.com/150",
+          "alt":  "Chun Li Era Nicki Minaj",
+          "explanation": "<explanation_for_chun_li>"
+        },"um_chile":
+        {
+          "personality": "um_chile",
+          "text": "um chile, anyways nicki",
+          "image": "https://via.placeholder.com/150",
+          "alt":  "Um Chile, Anyways Nicki Minaj",
+          "explanation": "<explanation_for_um_chile>"
+        },"academic":
+        {
+          "personality": "academic",
+          "text": "academic weapon nicki",
+          "image": "https://via.placeholder.com/150",
+          "alt":  "Academic Weapon Nicki Minaj",
+          "explanation": "<explanation_for_academic>"
+        },"onika_burger":
+        {
+          "personality": "onika_burger",
+          "text": "onika burger nicki",
+          "image": "https://via.placeholder.com/150",
+          "alt":  "Onika Burger Nicki Minaj",
+          "explanation": "<explanation_for_onika_burger>"
+        },"emo_onika":
+        {
+          "personality": "emo_onika",
+          "text": "emo onika",
+          "image": "https://i.pinimg.com/736x/53/d8/2a/53d82ac8e1ffebc7ab6ac784e768ca10.jpg",
+          "alt":  "Emo Onika Nicki Minaj",
+          "explanation": "<explanation_for_emo_onika>"
+        },"roman_zolanski":
+        {
+          "personality": "roman_zolanski",
+          "text": "roman zolanski nicki",
+          "image": "https://via.placeholder.com/150",
+          "alt":  "Roman Zolanski Nicki Minaj",
+          "explanation": "<explanation_for_roman_zolanski>"
+        },"barbie":
+        {
+          "personality": "barbie",
+          "text": "barbie nicki",
+          "image": "https://via.placeholder.com/150",
+          "alt":  "Barbie Nicki Minaj",
+          "explanation": "<explanation_for_barbie>"
+        }
       }
-    ],
-    "answers": [
-      {
-        "combination": ["New York", "Pizza", "Traditional"],
-        "text": "Blue Cheese",
-        "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&w=400&h=400&fit=fillmax",
-        "alt": "blue cheese"
-      },
-      {
-        "combination": ["Austin", "Pasta", "Modern"],
-        "text": "Cheddar",
-        "image": "https://images.unsplash.com/photo-1618164436241-4473940d1f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-        "alt":  "cheddar cheese"
-      },
-      {
-        "combination": ["Portland", "Sandwich", "Mountains"],
-        "text": "Feta",
-        "image": "https://images.unsplash.com/photo-1626957341926-98752fc2ba90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-        "alt":  "feta"
-      },
-      {
-        "combination": ["New Orleans", "Hamburger", "House"],
-        "text": "Halloumi",
-        "image": "https://images.unsplash.com/photo-1598167912234-02576c0c5f16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
-        "alt":  "halloumi"
-      },
-      {
-        "combination": ["New York", "Pizza", "Modern"],
-        "text": "Goya",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Queso_Goya.jpg",
-        "alt":  "Goya"
-      },
-      {
-        "combination": ["New York", "Pizza", "Mountains"],
-        "text": "Red Hawk",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cowgirl_Creamery_Point_Reyes_-_Red_Hawk_cheese.jpg",
-        "alt":  "Red Hawk"
-      },
-      {
-        "combination": ["New York", "Pizza", "House"],
-        "text": "Pepper Jack",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pepperjack_Cheese.jpg",
-        "alt":  "Pepper Jack"
-      },
-      {
-        "combination": ["New York", "Pasta", "Traditional"],
-        "text": "Nacho cheese",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nachos_supreme.jpg/270px-Nachos_supreme.jpg",
-        "alt":  "Nacho cheese"
-      },
-      {
-        "combination": ["New York", "Pasta", "Modern"],
-        "text": "Muenster",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Block_of_Muenster_cheese.jpg",
-        "alt":  "Muenster"
-      },
-      {
-        "combination": ["New York", "Pasta", "Mountains"],
-        "text": "Humboldt Fog",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Cheese_30_bg_051906.jpg",
-        "alt":  "Humboldt Fog"
-      },
-      {
-        "combination": ["New York", "Pasta", "House"],
-        "text": "Brick",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Brickcheese.jpg",
-        "alt":  "Brick"
-      },
-      {
-        "combination": ["New York", "Sandwich", "Traditional"],
-        "text": "Oaxaca",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Quesillo_de_Oaxaca.png",
-        "alt":  "Oaxaca"
-      },
-      {
-        "combination": ["New York", "Sandwich", "Modern"],
-        "text": "Criollo",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fromage_criollo._%2815228806466%29.jpg",
-        "alt":  "Criollo"
-      },
-      {
-        "combination": ["New York", "Sandwich", "Mountains"],
-        "text": "Asadero",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tlayuda_con_Quesillo%2C_Oaxaca.jpg",
-        "alt":  "Asadero"
-      },
-      {
-        "combination": ["New York", "Sandwich", "House"],
-        "text": "Añejo",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Queso_a%C3%B1ejo.JPG/270px-Queso_a%C3%B1ejo.JPG",
-        "alt":  "Añejo"
-      },
-      {
-        "combination": ["New York", "Hamburger", "Traditional"],
-        "text": "Adobera",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Adobera.png/270px-Adobera.png",
-        "alt":  "Adobera"
-      },
-      {
-        "combination": ["New York", "Hamburger", "Modern"],
-        "text": "Quesillo",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Quesillo_de_Oaxaca.png/270px-Quesillo_de_Oaxaca.png",
-        "alt":  "Quesillo"
-      },
-      {
-        "combination": ["New York", "Hamburger", "Mountains"],
-        "text": "Cuajada",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cuajada.jpg",
-        "alt":  "Cuajada"
-      },
-      {
-        "combination": ["New York", "Hamburger", "House"],
-        "text": "Turrialba",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Queso_Turrialba.jpg",
-        "alt":  "Turrialba"
-      },
-
-      {
-        "combination": ["Austin", "Pizza", "Traditional"],
-        "text": "Palmito",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Palmito_cheese.jpg",
-        "alt":  "Palmito"
-      },
-      {
-        "combination": ["Austin", "Pizza", "Modern"],
-        "text": "Pikauba",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pikauba_%28fromage%29_03.jpg/270px-Pikauba_%28fromage%29_03.jpg",
-        "alt":  "Pikauba"
-      },
-      {
-        "combination": ["Austin", "Pizza", "Mountains"],
-        "text": "Hellim",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Halloumislicefresh.jpg/270px-Halloumislicefresh.jpg",
-        "alt":  "Hellim"
-      },
-      {
-        "combination": ["Austin", "Pizza", "House"],
-        "text": "Beyaz peynir",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/White_cheese_from_Turkey.jpg/270px-White_cheese_from_Turkey.jpg",
-        "alt":  "Beyaz peynir"
-      },
-      {
-        "combination": ["Austin", "Pasta", "Traditional"],
-        "text": "Nabulsi",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/%D8%AC%D8%A8%D9%86%D8%A9_%D9%86%D8%A7%D8%A8%D9%84%D8%B3%D9%8A%D8%A9.jpg",
-        "alt":  "Nabulsi"
-      },
-      {
-        "combination": ["Austin", "Pasta", "Mountains"],
-        "text": "Jameed",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jameed.JPG/270px-Jameed.JPG",
-        "alt":  "Jameed"
-      },
-      {
-        "combination": ["Austin", "Pasta", "House"],
-        "text": "Labneh",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Labneh01.jpg",
-        "alt":  "Labneh"
-      },
-      {
-        "combination": ["Austin", "Sandwich", "Traditional"],
-        "text": "Pot Cheese",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Kupe_paniri.jpg",
-        "alt":  "Pot Cheese"
-      },
-      {
-        "combination": ["Austin", "Sandwich", "Modern"],
-        "text": "Rumi",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flickr_-_Tour_d%27Afrique_-_ArabicCheese.jpg",
-        "alt":  "Rumi"
-      },
-      {
-        "combination": ["Austin", "Sandwich", "Mountains"],
-        "text": "Mish",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mesh.jpg/270px-Mesh.jpg",
-        "alt":  "Mish"
-      },
-      {
-        "combination": ["Austin", "Sandwich", "House"],
-        "text": "Domiati",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Domiati_cheese.jpg/270px-Domiati_cheese.jpg",
-        "alt":  "Domiati"
-      },
-      {
-        "combination": ["Austin", "Hamburger", "Traditional"],
-        "text": "Bryndza",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bryndza.jpg/270px-Bryndza.jpg",
-        "alt":  "Bryndza"
-      },
-      {
-        "combination": ["Austin", "Hamburger", "Modern"],
-        "text": "Grevé",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Wedge_of_Swedish_Grev%C3%A9_cheese.jpg/270px-Wedge_of_Swedish_Grev%C3%A9_cheese.jpg",
-        "alt":  "Grevé"
-      },
-      {
-        "combination": ["Austin", "Hamburger", "Mountains"],
-        "text": "Parenica",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Parenica.jpg/270px-Parenica.jpg",
-        "alt":  "Parenica"
-      },
-      {
-        "combination": ["Austin", "Hamburger", "House"],
-        "text": "Korbáčiky",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%C3%9Aden%C3%BD_korb%C3%A1%C4%8Dik_%28Slovakia%29.jpg/270px-%C3%9Aden%C3%BD_korb%C3%A1%C4%8Dik_%28Slovakia%29.jpg",
-        "alt":  "Korbáčiky"
-      },
-      {
-        "combination": ["Portland", "Pizza", "Mountains"],
-        "text": "Liptauer",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Liptauer.jpg/270px-Liptauer.jpg",
-        "alt":  "Liptauer"
-      },
-      {
-        "combination": ["Portland", "Pizza", "House"],
-        "text": "Tvorog",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tvorog.jpg/270px-Tvorog.jpg",
-        "alt":  "Tvorog"
-      },
-      {
-        "combination": ["Portland", "Pasta", "Traditional"],
-        "text": "Circassian",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D1%8B%D1%80.jpg",
-        "alt":  "Circassian"
-      },
-      {
-        "combination": ["Portland", "Pasta", "Modern"],
-        "text": "Cașcaval",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Penteleu.jpg",
-        "alt":  "Cașcaval"
-      },
-      {
-        "combination": ["Portland", "Pasta", "Mountains"],
-        "text": "Telemea",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Telemea.jpg",
-        "alt":  "Telemea"
-      },
-      {
-        "combination": ["Portland", "Pasta", "House"],
-        "text": "Requeijão",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/RequeijaoCremoso.jpg",
-        "alt":  "Requeijão"
-      },
-      {
-        "combination": ["Portland", "Sandwich", "Traditional"],
-        "text": "Norvegia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Norvegia_Vellagret.JPG",
-        "alt":  "Norvegia"
-      },
-      {
-        "combination": ["Portland", "Sandwich", "Modern"],
-        "text": "Jarlsberg",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Jarlsberg_cheese.jpg",
-        "alt":  "Jarlsberg"
-      },
-      {
-        "combination": ["Portland", "Sandwich", "House"],
-        "text": "Gamalost",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Gamalost-NorwegianOldCheese.jpg",
-        "alt":  "Gamalost"
-      },
-      {
-        "combination": ["Portland", "Hamburger", "Traditional"],
-        "text": "Brunost",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Brunost.jpg",
-        "alt":  "Brunost"
-      },
-      {
-        "combination": ["Portland", "Hamburger", "Modern"],
-        "text": "Pannónia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Emmental_015.jpg",
-        "alt":  "Pannónia"
-      },
-      {
-        "combination": ["Portland", "Hamburger", "Mountains"],
-        "text": "Orda",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Urd%C4%83.png",
-        "alt":  "Orda"
-      },
-      {
-        "combination": ["Portland", "Hamburger", "House"],
-        "text": "Trappista",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/TrappistenKaeseOffen_1.jpg",
-        "alt":  "Trappista"
-      },
-      {
-        "combination": ["New Orleans", "Pizza", "Mountains"],
-        "text": "Myzithra",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Homemade_Mizithra.jpg/2560px-Homemade_Mizithra.jpg",
-        "alt":  "Myzithra"
-      },
-      {
-        "combination": ["New Orleans", "Pizza", "House"],
-        "text": "Metsovone",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%CE%9C%CE%B5%CF%84%CF%83%CE%BF%CE%B2%CF%8C%CE%BD%CE%B5_6304.jpg",
-        "alt":  "Metsovone"
-      },
-      {
-        "combination": ["New Orleans", "Pasta", "Traditional"],
-        "text": "Manouri",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Manouri.jpg",
-        "alt":  "Manouri"
-      },
-      {
-        "combination": ["New Orleans", "Pasta", "Modern"],
-        "text": "Aura",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Aura_juusto.jpg",
-        "alt":  "Aura"
-      },
-      {
-        "combination": ["New Orleans", "Pasta", "Mountains"],
-        "text": "Saga",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Soft_and_creamy_Saga_cheese.jpg",
-        "alt":  "Saga"
-      },
-      {
-        "combination": ["New Orleans", "Pasta", "House"],
-        "text": "Danish Blue",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Danish_Blue_cheese.jpg",
-        "alt":  "Danish Blue"
-      },
-      {
-        "combination": ["New Orleans", "Sandwich", "Traditional"],
-        "text": "Esrom",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Esrom.jpg",
-        "alt":  "Esrom"
-      },
-      {
-        "combination": ["New Orleans", "Sandwich", "Modern"],
-        "text": "Staazer",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Staazer_Heublumenk%C3%A4se_SB_01_WikiCheese_Lokal_K.jpg",
-        "alt":  "Staazer"
-      },
-      {
-        "combination": ["New Orleans", "Sandwich", "Mountains"],
-        "text": "Kashkaval",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Kaschkawal_Kashkaval_%D0%BA%D0%B0%D1%88%D0%BA%D0%B0%D0%B2%D0%B0%D0%BB_Balkank%C3%A4se_Sofia_IMG_7649.JPG",
-        "alt":  "Kashkaval"
-      },
-      {
-        "combination": ["New Orleans", "Sandwich", "House"],
-        "text": "Sura Kees",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sura-Kees.JPG/1280px-Sura-Kees.JPG",
-        "alt":  "Sura Kees"
-      },
-      {
-        "combination": ["New Orleans", "Hamburger", "Traditional"],
-        "text": "Paneer",
-        "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
-        "alt":  "Paneer"
-      },
-      {
-        "combination": ["New Orleans", "Hamburger", "Modern"],
-        "text": "Camembert",
-        "image": "https://images.unsplash.com/photo-1634487359989-3e90c9432133?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
-        "alt":  "Camembert"
-      },
-      {
-        "combination": ["New Orleans", "Hamburger", "Mountains"],
-        "text": "Sainte-Colome",
-        "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80",
-        "alt":  "sanite colome"
-      }
-    ]
   }
 }

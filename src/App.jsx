@@ -5,7 +5,7 @@ import AnswerBlock from "./components/AnswerBlock"
 
 const App = () => {
     const [quiz, setQuiz] = useState(null)
-    const [chosenAnswerItems, setChosenAnswerItems] = useState([]) // useState(new Array(4).fill(null))
+    const [chosenAnswerItems, setChosenAnswerItems] = useState(new Array(4).fill(null))
     const [unansweredQuestionIds, setUnansweredQuestionIds] = useState(null)
     const [showAnswer, setShowAnswer] = useState(false)
 
@@ -16,7 +16,8 @@ const App = () => {
 
     const answerRef = createRef()
 
-    console.log(refs)
+    console.log(refs,'ref')
+    console.log(chosenAnswerItems,'answer')
 
     const fetchData = async () => {
         try {
@@ -38,12 +39,12 @@ const App = () => {
     }, [quiz])
 
     useEffect(() => {
-        if (chosenAnswerItems.filter(String).length > 0) { 
+        if (chosenAnswerItems.some((item => item !== null))){
             if (showAnswer) {
                 // scroll to answer block
                 answerRef.current.scrollIntoView({behavior: 'smooth'})
             }
-            if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.filter(String).length >= 1) { // 
+            if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.some((item => item !== null))) { // 
                 setShowAnswer(true)
             } else {
                 // scroll to highest unansweredQuestionId
@@ -69,8 +70,9 @@ const App = () => {
             ))}
             {showAnswer && (
                 <AnswerBlock
-                    answerOptions={quiz?.answers}
+                    answerOptions={quiz?.content}
                     chosenAnswers={chosenAnswerItems}
+                    nicki = {quiz?.answers}
                     ref={answerRef}
                 />
             )}
