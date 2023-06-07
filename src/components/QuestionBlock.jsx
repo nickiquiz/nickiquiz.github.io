@@ -25,10 +25,9 @@ const QuestionBlock = ({
             className="question-block"
             onClick={handleClick}
             disabled={validPick}
-
         >
             <img src={question.image} alt={question.alt} className="img"/>
-            <h3>{question.text}</h3>
+            <h3>{question.text} </h3>
             <p>
                 <a href={question.image}>{question.credit} </a>
             </p>

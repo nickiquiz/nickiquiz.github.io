@@ -37,7 +37,7 @@ p {
 .question-title {
     width: 37.5rem;
     height: 13.125rem;
-    background-color: rgb(102, 69, 221);
+    background-color:rgb(102, 69, 221);
     border-radius: 0.313rem;
     display: flex;
     justify-content: center;
