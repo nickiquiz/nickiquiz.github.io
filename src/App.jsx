@@ -76,6 +76,7 @@ const App = () => {
                     ref={answerRef}
                 />
             )}
+            <p> made with love: D&H</p>
         </div>
     )
 }
