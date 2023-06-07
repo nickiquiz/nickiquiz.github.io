@@ -51,10 +51,10 @@ const AnswerBlock = ({answerOptions, chosenAnswers,nicki}, ref) => {
 
     return (
         <div ref={ref} className="answer-block">
-            <h2>You are: {result?.text}</h2>
+            <h2>You are: <br></br> {result?.text}</h2>
             <p>{result?.explanation}</p>
-            <img src={result?.image} alt={result?.text}/>
-            <iframe src={result?.image}alt={result?.text} width="480" height="424" frameBorder="0" class="giphy-embed" allowFullScreen ></iframe><p><a href="https://giphy.com/gifs/ymcmb-barbie-young-money-eb8qyRYKqevYc">via GIPHY</a></p>
+            <img src={result?.image} alt={result?.text} className = "resultimg"/>
+            { /*<iframe src={result?.image}alt={result?.text} width="480" height="424" frameBorder="0" class="giphy-embed" allowFullScreen ></iframe><p><a href="https://giphy.com/gifs/ymcmb-barbie-young-money-eb8qyRYKqevYc">via GIPHY</a></p>*/}
         </div>
     )
 }

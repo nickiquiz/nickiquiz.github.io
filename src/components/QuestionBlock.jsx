@@ -31,7 +31,6 @@ const QuestionBlock = ({
             <h3>{question.text}</h3>
             <p>
                 <a href={question.image}>{question.credit} </a>
-                <a href="https://www.nickiminajofficial.com">Change Later</a>
             </p>
 
         </button>
